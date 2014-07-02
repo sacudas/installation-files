@@ -1,0 +1,23 @@
+initial setup : 
+
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install vim-gtk git mysql-workbench thunderbird chromium-browser lamp-server^ openssh-server -y
+
+
+generate ssh key :  
+
+ssh-keygen -t rsa -C "nickeleus.utech@gmail.com"
+
+
+terminal modification :
+
+https://github.com/mxaddict/dotfiles/blob/master/.promptline.sh
+https://github.com/mxaddict/dotfiles/tree/master/.fonts
+
+skype installation :
+
+sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
+
+sudo apt-get update
+
+sudo apt-get install skype
+
