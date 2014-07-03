@@ -10,6 +10,9 @@ ssh-keygen -t rsa -C "nickeleus.utech@gmail.com"
 
 terminal modification :
 
+-> open .bashrc file from your ~/
+-> append the to the source the url of the .proptline.sh
+-> change t
 https://github.com/mxaddict/dotfiles/blob/master/.promptline.sh
 https://github.com/mxaddict/dotfiles/tree/master/.fonts
 
