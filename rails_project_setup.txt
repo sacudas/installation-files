@@ -1,0 +1,20 @@
+rails project setup
+
+rails new -T --skip-active-record
+
+update the Gemfile
+
+bundle install
+
+rails g mongoid:config
+
+rails g devise:install
+
+rails g devise (name of the model)
+
+// syntax for creating a user
+User.Create(email : 'nickeleus@gmail.com', password : 'password');
+
+rails g rails_admin:install
+
+rake hamilfy:convert

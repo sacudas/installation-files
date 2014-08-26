@@ -1,26 +1,40 @@
-initial setup : 
-
-sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install vim-gtk git mysql-workbench thunderbird chromium-browser lamp-server^ openssh-server -y
+initial setup : sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install vim-gtk git mysql-workbench thunderbird chromium-browser lamp-server^ openssh-server -y
 
 
-generate ssh key :  
+generate ssh key :
 
 ssh-keygen -t rsa -C "nickeleus.utech@gmail.com"
 
 
 terminal modification :
 
--> open .bashrc file from your ~/
--> append the to the source the url of the .proptline.sh
--> change t
-https://github.com/mxaddict/dotfiles/blob/master/.promptline.sh
-https://github.com/mxaddict/dotfiles/tree/master/.fonts
+git clone dotfile repo
+git submodule init
+git submodule update
+
+move file to home directory
+
+execute BundleInstall
+
 
 skype installation :
 
 sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
-
 sudo apt-get update
-
 sudo apt-get install skype
 
+link the apache document root
+
+ln -s /home/nickeleus/workspace/ workspace
+
+
+
+vim configuration :
+
+git clone to dotfiles
+
+// updated the submodule
+git submodule init
+git submodule update
+BundleUpdate
+BundleInstall
